@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PowerPadel</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 480px; margin: 60px auto; padding: 20px; text-align: center; color: #111; }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  p { color: #555; }
+  .buttons { display: flex; flex-direction: column; gap: 12px; margin-top: 32px; }
+  .btn { padding: 14px 24px; background: #111; color: #fff; text-decoration: none; border-radius: 10px; font-weight: 600; }
+</style>
+</head>
+<body>
+<h1>PowerPadel</h1>
+<p>Install the app to open this game.</p>
+<div class="buttons">
+  <a class="btn" href="https://apps.apple.com/app/idAPPSTOREID">Download for iOS</a>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.powerpadel.app">Download for Android</a>
+</div>
+<script>
+  const ua = navigator.userAgent.toLowerCase();
+  if (/iphone|ipad|ipod/.test(ua)) {
+    window.location.href = "https://apps.apple.com/app/idAPPSTOREID";
+  } else if (/android/.test(ua)) {
+    window.location.href = "https://play.google.com/store/apps/details?id=com.powerpadel.app";
+  }
+</script>
+</body>
+</html>
