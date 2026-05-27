@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.powerpadel.app",
+      "sha256_cert_fingerprints": [
+        "D3:1D:E4:78:37:75:D0:90:DE:C7:B5:B2:57:56:23:F7:C2:62:1B:6E:74:7C:8B:E7:75:8F:19:B2:FD:7F:EB:E8",
+        "0B:17:43:CE:BE:FF:2E:93:24:AE:0C:91:D6:97:E9:FA:D7:51:8B:E3:B1:5F:1E:B0:72:EF:10:7A:8F:3D:AE:F6"
+    ]
+    }
+  }
+]
