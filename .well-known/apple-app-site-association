@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["PZZ6LMF2RV.com.powerpadel.app"],
+        "components": [
+          {
+            "/": "/g/*",
+            "comment": "Game share links"
+          }
+        ]
+      }
+    ]
+  }
+}
